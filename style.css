@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root {
+    --main-background:hsl(217, 54%, 11%);
+    --card-background:hsl(216, 50%, 16%);
+    --line:hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --soft-blue:hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+    background-color: var(--main-background);
+}
+
+.container {
+    background-color: var(--main-background);
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 6px solid var(--card-background);
+    width: 30rem;
+    min-height: 60rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+}
+
+.card-container {
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* .card-img {
+    background-image: url('./images/image-equilibrium.jpg');
+    background-size: cover;
+    height: 59.4rem;
+} */
+
+.card-img img {
+    width: 25rem;
+    height: 30rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.card-img .hover-eff:hover,
+.card-img .hover-eff:active {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+.card-heading {
+    color: var(--white);
+}
+
+.card-heading:hover,
+.card-heading:active {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
+.card-heading h2 {
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+/* .card-body {
+    color: green;
+} */
+
+.card-body h3 {
+    color: var(--soft-blue);
+    line-height: 1.8;
+    letter-spacing: 0.005rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.eth-days {
+    color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+    /* align-items: baseline; */
+}
+
+.eth {
+    margin-right: 10rem;
+    display: flex;
+    gap: 0.8rem;
+    margin-left: 2rem;
+
+}
+
+.eth-days .eth p {
+    color: var(--cyan);
+    margin-top: 0.1rem;
+    font-size: 1.5rem;
+}
+
+.days {
+    display: flex;
+    gap: 0.8rem;
+    /* margin-right: 23rem; */
+}
+
+.days p {
+    color: var(--soft-blue);
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+hr {
+    width: 90%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: var(--line);
+}
+
+.card-footer {
+    display: flex;
+}
+
+.card-footer .card-avi {
+    margin-top: 5rem;
+}
+
+.card-footer .card-msg p {
+    margin-top: 6rem;
+    margin-right: 6rem;
+    color: var(--soft-blue);
+    font-size: 1rem;
+}
+
+.card-footer .card-msg p:hover,
+.card-footer .card-msg p:active {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card-footer .card-avi img {
+    max-width: 50%;
+    margin-bottom: 4rem;
+    margin-left: 3rem;
+}
+
+/* .card-footer .card-msg {
+    color: aquamarine;
+} */
+
+
+/* Mobile Responsive Specifications */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices  */
+@media (min-width: 1200px) {
+
+}
