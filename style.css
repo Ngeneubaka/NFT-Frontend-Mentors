@@ -33,6 +33,7 @@ html {
     min-height: 60rem;
     margin-top: 2rem;
     border-radius: 2rem;
+    box-shadow: 1rem 1rem 0.8rem 1rem;
 }
 
 .card-container {
